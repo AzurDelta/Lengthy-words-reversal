@@ -1,3 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using P.LengthyWordsReversal;
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine(LengthyWordsReversal.ReverseLongWords("Тестовое сообщение"));
+Console.WriteLine(LengthyWordsReversal.ReverseLongWords("This is the test with ascii words"));
